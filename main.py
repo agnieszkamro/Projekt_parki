@@ -2,7 +2,9 @@ from tkinter import *
 
 import tkintermapview
 
+
 users: list=[]
+
 
 class User:
     def __init__(self, name, surname, location, posts):
